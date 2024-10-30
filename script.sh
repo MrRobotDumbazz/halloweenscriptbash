@@ -86,9 +86,9 @@ progress=0
 # Бесконечный цикл анимации
 while true; do
 	xrandr -o inverted 
-	sleep 1
+	sleep $sleep_time
 	xrandr -o left 
-	sleep 1
+	sleep $sleep_time
     for progress in {0..100..33}; do
         clear_screen
         matrix_rain
