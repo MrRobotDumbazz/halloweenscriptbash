@@ -87,7 +87,7 @@ progress=0
 while true; do
 	xrandr -o inverted 
 	sleep $sleep_time
-	xrandr -o left 
+	xrandr -o normal
 	sleep $sleep_time
     for progress in {0..100..33}; do
         clear_screen
